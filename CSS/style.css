@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face {
+  font-family: "BlackHansSans";
+  src: url(../fonts/BlackHanSans-Regular.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+
+.marca {
+  font-family: "BlackHansSans", sans-serif;
+}
+
+.imgCarouselCryto{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .imgCarouselCryto{
+    height: 350px;
+  }
+}
+@media (min-width: 992px){
+  .imgCarouselCryto{
+    height: 500px;
+    object-position: top;
+  }
+}
+
+.carousel-control-prev-icon , carousel-control-next-icon{
+  filter: none!important;
+}
+
