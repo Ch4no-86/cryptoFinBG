@@ -37,3 +37,6 @@ main {
   filter: none!important;
 }
 
+textarea{
+  resize: none;
+}
