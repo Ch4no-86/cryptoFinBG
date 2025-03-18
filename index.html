@@ -300,10 +300,10 @@
           </div>
           <div class="modal-body">
             <h4>Completa los siguientes datos para crear una cuenta</h4>
-            <form>
+            <form id="formCrearCuenta">
               <div class="mb-3">
                 <label for="Nombre y Apellido" class="form-label"
-                  >Nombre y Apellido</label
+                  >Nombre y Apellido *</label
                 >
                 <input
                   type="text"
@@ -313,7 +313,7 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label">Email *</label>
                 <input
                   type="email"
                   class="form-control"
@@ -322,19 +322,19 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="Contraseña" class="form-label">Contraseña</label>
+                <label for="Contraseña" class="form-label">Contraseña *</label>
                 <input type="password" class="form-control" id="Contraseña" />
               </div>
               <div class="mb-3">
                 <label for="Contraseña" class="form-label"
-                  >Repetir contraseña</label
+                  >Repetir contraseña *</label
                 >
                 <input type="password" class="form-control" id="Contraseña" />
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" form="formCrearCuenta" >Enviar</button>
           </div>
         </div>
       </div>
